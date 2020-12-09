@@ -1,15 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import { Button, ButtonGroup } from "@chakra-ui/react"
+import Header from './components/common/Header';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-      <Button colorScheme="blue" size="sm">Button</Button>
-      </header>
+      <Header />
     </div>
   );
-}
+};
 
 export default App;
