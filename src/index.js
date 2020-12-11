@@ -9,7 +9,8 @@ const theme = extendTheme({
   styles: {
     global: {
       '*:focus': {
-        boxShadow: 'none !important'
+        boxShadow: 'none !important',
+        outline: 'none !important'
       }
     }
   },

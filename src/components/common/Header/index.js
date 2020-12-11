@@ -7,7 +7,7 @@ import RightSection from './RightSection';
 const Header = () => {
   return (
     <header>
-      <Flex boxShadow="lg" justifyContent="space-between" p={[2, 2]} bg="blue">
+      <Flex justifyContent="space-between" p={[3, 4]} bg="transparent" position="absolute" w="100%">
         <LeftSection />
         <SearchSection />
         <RightSection />

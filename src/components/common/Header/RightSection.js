@@ -21,7 +21,14 @@ const RightSection = () => (
     </Flex>
     <Flex h="10" w="33%" maxW={450} align="center">
       <Menu w="100%">
-        <MenuButton size="md" as={Button} d="flex" variant="outline" m={[0, 'auto']}>
+        <MenuButton
+          size="md"
+          as={Button}
+          d="flex"
+          variant="outline"
+          m={[0, 'auto']}
+          bg="whiteAlpha.900"
+        >
           <Flex align="center">
             <Image
               boxSize="20px"

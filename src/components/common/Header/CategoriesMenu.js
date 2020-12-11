@@ -17,6 +17,7 @@ const CategoriesMenu = () => {
     <Menu w="100%">
       <MenuButton
         as={Button}
+        bg="whiteAlpha.900"
         rightIcon={<TriangleDownIcon color="brand.700" height="12px" />}
         variant="outline"
         size="md"
