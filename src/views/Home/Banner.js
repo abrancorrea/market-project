@@ -12,7 +12,8 @@ import React from 'react';
 import Header from '../../components/common/Header';
 import banner from '../../assets/img/grocery-banner-main.png';
 import { Search2Icon } from '@chakra-ui/icons';
-
+import { OverlayScrollbarsComponent } from 'overlayscrollbars-react';
+import 'overlayscrollbars/css/OverlayScrollbars.css';
 const Banner = () => {
   return (
     <>
@@ -71,6 +72,9 @@ const Banner = () => {
           </InputRightAddon>
         </InputGroup>
       </Box>
+      {/*<OverlayScrollbarsComponent style={{maxHeight: 300}} options={{ scrollbars: {visibility: "h"}}}>
+        <div style={{height: 500}}>lorem ipsum</div>
+  </OverlayScrollbarsComponent>*/}
     </>
   );
 };
