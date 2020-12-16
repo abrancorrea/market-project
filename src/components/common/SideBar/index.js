@@ -46,7 +46,7 @@ const RadioTiles = (props) => {
           boxShadow: '0px 0px 0px 2px ',
           outlineColor: 'black'
         }}
-        marginTop="10px"
+        marginBottom="10px"
         minW="2px"
         borderWidth="1px"
         overflow="hidden"
@@ -54,7 +54,6 @@ const RadioTiles = (props) => {
         bgColor="rgb(255, 255, 255)"
         borderRadius="6px"
         borderColor="rgb(255, 255, 255);"
-        marginBottom="10px"
       >
         <Flex
           h="80px"
